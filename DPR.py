@@ -1,16 +1,11 @@
 import numpy as np
 import cv2
 
-#Program which intend to recognize digit patterns#
+#Program which intend to recognize digit patterns,opencv 2.4.2 was used#
 
 #Training!
 #For the training,the image of the digit is displayed and it is expected that the user press on his keyboard the digit is shown on screen
 def training(contoursObj):
-	#First check if the trained data already exists
-	sData = open('generalsamples.data','r')
-	sLabel = open('generalvaluedigits.data','r')
-	if sData != None and sLabel != None:
-		return
 	#Empty array for the labels
 	samples =  np.empty((0,100))
 	#Empty array for the corresponding value
