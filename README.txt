@@ -1,0 +1,1 @@
+Programa que trata de reconocer los patrones de los digitos del 0 al 9 utilizando el algoritmo K-Nearest Neighbourhood (opencv)
